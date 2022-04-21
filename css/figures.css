@@ -28,13 +28,38 @@ button {
 *::before,
 *::after {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-  background-color: rgba(245, 200, 207, 0.87);
+  background-color: bisque;
 }
 
-
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10%;
+    background-color: rgb(167, 167, 240);
+    height: 110px;
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.637);
+}
+#reset {
+    padding: 10px;
+}
+button{
+  border-radius: 10px;
+}
+button img{
+  width: 70px;
+  height: 65px;
+  box-shadow: black;
+  border-radius: 10px;
+}
+button:hover {
+    transform: scale(1.25);
+}
 #main {
     display: flex;
     justify-content: center;
@@ -47,17 +72,17 @@ body {
   position: absolute;
 }
 
-#bigGreen-Triangle {
+#bigYellow-Triangle {
   width: 10em;
   height: 20em;
   clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
-  background-color: #058038;
+  background-color: #ffd900;
 }
-#bigBlue-Triangle {
+#bigRed-Triangle {
   width: 20em;
   height: 10em;
   clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
-  background-color: #1b2edb;
+  background-color: #ff0000;
 }
 
 #pink-Triangle {
@@ -66,28 +91,28 @@ body {
   clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
   background-color: #f36bd6;
 }
-#orange-Triangle {
+#turquoise-Triangle {
   width: 10em;
   height: 10em;
   clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
-  background-color: #eb9524;
+  background-color: #13f7d8;
 }
-#purple-Square {
+#orange-Square {
   width: 10em;
   height: 10em;
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-  background-color: #a42add;
+  background-color: #ffae00;
 }
 
-#red-Parallelogram {
+#green-Parallelogram {
   width: 17.5em;
   height: 5em;
   clip-path: polygon(28.5% 0%, 85.6% 0%, 57.5% 100%, 0% 100%);
-  background-color: #e42929;
+  background-color: #2ea85f;
 }
-#yellow-Triangle {
+#purple-Triangle {
   width: 10em;
   height: 5em;
   clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
-  background-color: #f5e61c;
+  background-color: rgb(141, 4, 154);
 }
