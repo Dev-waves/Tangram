@@ -1,0 +1,42 @@
+body {
+    zoom: 75%;
+    background-image: url(../images/cavalier.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#bigGreen-Triangle {
+    transform: translateX(15rem) translateY(12rem) rotate(135deg) ;
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78) ;
+}
+
+#bigBlue-Triangle {
+    transform: translateX(1.9rem) translateY(13rem) rotate(225deg) ;
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78) ;
+
+}
+
+#pink-Triangle {
+    transform: translateX(0.12rem) translateY(18.3rem) rotate(225deg) ;
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78) ;
+}
+
+#orange-Triangle {
+    transform: translateX(9.4rem) translateY(3.45rem) rotate(180deg) ;
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78) ;
+}
+
+#purple-Square {
+    transform: translateX(13.35rem) translateY(-5.5em) rotate(0deg) ;
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78) ;
+}
+
+#red-Parallelogram {
+    transform:  translateX(26.45rem) translateY(12.9rem) rotate(45deg) ;
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78) ;
+}
+
+#yellow-Triangle {
+    transform: translateX(-3.4rem) translateY(2rem) rotate(315deg) ;
+    transition: transform 1s cubic-bezier(0.45, -1.12, 0.35, 1.78) ;
+}
